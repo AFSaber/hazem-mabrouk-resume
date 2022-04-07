@@ -32,18 +32,7 @@ p {
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 }
-.section-title {
-	font-size: 4rem;
-	font-weight: 300;
-	color: black;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	text-align: center;
-}
-.section-title span {
-	color: crimson;
-}
+
 
 .cta {
 	display: inline-block;
@@ -273,8 +262,20 @@ p {
 	margin: -170px auto;
 	padding: 100px 0;
 }
-#experiences .experiences-header h1 {
-	margin-bottom: 50px;
+
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	padding-top:8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align:center;
+}
+
+.section-title span {
+	color: crimson;
 }
 #experiences .all-experiences {
 	display: flex;
@@ -701,6 +702,15 @@ p {
 	#education .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+		
+	}
+	#education h2 {
+		text-align: center;
+		margin:0 auto;
+	}
+	#education h2 span {
+		display: block;
+		margin-top:.5rem
 	}
 }
 /* End  Media Query For Desktop */
